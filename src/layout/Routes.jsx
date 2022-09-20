@@ -1,5 +1,4 @@
 import Home from '../pages/Home';
-import About from '../pages/About';
 
 const mainRoutes = [
   {
@@ -8,13 +7,6 @@ const mainRoutes = [
     layout: "/",
     exact: true,
     component: <Home/>,
-  },
-  {
-    path: "/about",
-    name: "About",
-    layout: "/",
-    exact: true,
-    component: <About/>,
   },
 ];
 
